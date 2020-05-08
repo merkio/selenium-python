@@ -110,6 +110,10 @@ ENV/
 env.bak/
 venv.bak/
 
+#IDEA
+.idea
+*.iml
+
 # Spyder project settings
 .spyderproject
 .spyproject
