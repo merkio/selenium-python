@@ -12,7 +12,7 @@ class LoginPage(BasePage):
         assert 'login' in self.browser.current_url
 
     def should_be_login_form(self):
-        assert self.is_element_present(*LoginPageLocators.LOGIN_FORM)
+        assert self.is_element_present(*LoginPageLocators.LOGIN_FORM), 'Login Form is not present'
 
     def should_be_register_form(self):
-        assert self.is_element_present(*LoginPageLocators.REGISTER_FORM)
+        assert self.is_element_present(*LoginPageLocators.REGISTER_FORM), 'Register Form is not present'
