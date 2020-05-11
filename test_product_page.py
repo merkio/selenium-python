@@ -39,7 +39,7 @@ class TestAddToBasketFromProductPage:
         page.should_not_be_success_message()
 
     @pytest.mark.need_review
-    def test_guest_cant_see_product_in_basket_opened_from_main_page(self, browser: WebDriver):
+    def test_guest_cant_see_product_in_basket_opened_from_product_page(self, browser: WebDriver):
         link = "http://selenium1py.pythonanywhere.com/en-gb/catalogue/the-city-and-the-stars_95/"
         page = ProductPage(browser, link)
         page.open()
