@@ -1,1 +1,1 @@
-# stepik-selenium-python
+# selenium-python
